@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.7.0",
+    "selenium-webdriver": "^4.33.0"
+  },
+  "scripts": {
+    "test": "npx mocha ./test/**/*.test.js --timeout 10000"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chromedriver": "^137.0.4"
+  }
+}
